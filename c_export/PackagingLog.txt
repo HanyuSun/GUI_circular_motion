@@ -1,0 +1,9 @@
+ant:
+<ant>
+  <mkdir dir="F:\internship in cas\round\c_export\for_redistribution" />
+  <mkdir dir="F:\internship in cas\round\c_export\for_testing" />
+</ant>
+mcc -C -o c_export -W WinMain:c_export -T link:exe -d 'F:\internship in cas\round\c_export\for_testing' -v 'F:\internship in cas\round\c_export.m' 
+Test checkout of feature 'Compiler' failed.
+
+mcc failed.
